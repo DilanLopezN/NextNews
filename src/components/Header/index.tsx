@@ -7,7 +7,7 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src="/images/reactLogo.svg" alt="Logo" />
         <h2>
-          Next<span>News</span>
+          React<span>News</span>
         </h2>
         <nav>
           <a className={styles.active}>Home</a>
