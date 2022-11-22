@@ -12,6 +12,15 @@
   display: flex;
   align-items: center;
 
+  h2 {
+    color: azure;
+    text-shadow: 1px 1px 1px var(--shadow-text-cyan);
+  }
+  span {
+    color: var(--cyan-react);
+    text-shadow: 1px 1px 2px var(--shadow-text-lightcyan);
+  }
+
   nav {
     margin-left: 5rem;
     height: 5rem;
@@ -24,6 +33,7 @@
       height: 5rem;
       line-height: 5rem;
       color: var(--gray-300);
+      text-shadow: 1px 1px 1px var(--shadow-text-lightcyan);
 
       transition: color 0.2s;
 
@@ -51,5 +61,9 @@
         background: var(--cyan-500);
       }
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 }
