@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { SubscribreButton } from '../components/SubscribeButton'
 import style from './home.module.scss'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
               por apenas R$2,99 acesso <strong>VITALICIO!!</strong>
             </span>
           </p>
+          <SubscribreButton />
         </section>
         <img src="/images/fundo.svg" alt="astronaut looking black hole" />
       </main>
