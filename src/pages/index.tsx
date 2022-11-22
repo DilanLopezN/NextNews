@@ -1,3 +1,12 @@
+import Head from 'next/head'
+
 export default function Home() {
-  return <h1>Hello fucking world</h1>
+  return (
+    <>
+      <Head>
+        <title>Inicio | Next News</title>
+      </Head>
+      <h1></h1>
+    </>
+  )
 }
