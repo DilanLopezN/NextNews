@@ -2,4 +2,5 @@ Bibliotecas/Apis/Frameworks
 
 - typescript
 - sass
-  -- react icons
+- react icons
+  -- stripe
