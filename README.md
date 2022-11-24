@@ -4,3 +4,5 @@ Bibliotecas/Apis/Frameworks
 - sass
 - react icons
   -- stripe
+  utilitarios
+  --next auth
