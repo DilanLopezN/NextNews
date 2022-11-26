@@ -6,3 +6,5 @@ Bibliotecas/Apis/Frameworks
   -- stripe
   utilitarios
   --next auth
+  -- faunadb
+  - axios
